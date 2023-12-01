@@ -9,7 +9,7 @@
 - Настройте балансировку Round-robin на 4 уровне.
 ### Результат
 - Скриншот, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
-  * <img src="images/Task_1_1.jpg" alt="Screen" width="300" height="auto">
+  * <img src="images/Task_1_1.jpg" alt="Task_1_1" width="300" height="auto">
 
 
 ------
@@ -18,6 +18,11 @@
 - Запустите три simple python сервера на своей виртуальной машине на разных портах
 - Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
-- На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+### Результат
+- Конфигурационный файл [haproxy](https://drive.google.com/file/d/12ZVDD7_rvoYfjX0Xzpnvam5QmkdY3lD-/view?usp=sharing),
+- скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local
+   * <img src="images/Task_2_1.jpg" alt="Task_2_1" width="300" height="auto">
+- и без него.
+  * <img src="images/Task_2_2.jpg" alt="Task_2_2" width="300" height="auto">
 
 ------
